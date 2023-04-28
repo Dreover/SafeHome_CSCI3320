@@ -19,7 +19,7 @@ public class OracleConnection {
             Class.forName("oracle.jdbc.driver.OracleDriver");
             //create connection object
             connection = DriverManager.getConnection(
-                    "jdbc:oracle:thin:@168.28.42.148:1521:csit", 
+                    "xxxxx", 
                     "xxxxx", ///use your oracle user name
                     "xxxxx"); //use your oracle password
         }catch(Exception exps){
