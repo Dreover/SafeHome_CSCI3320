@@ -55,18 +55,4 @@ public class Residents implements Serializable{
         
         return validated;
     }
-    /*
-    // test if resident is validated
-    public static void main(String[] args){
-        String username = "dre";
-        String password = "apple123";
-        
-        Residents res = new Residents();
-        if(res.login(username, password)){
-            System.out.println(username + " Welcome to SafeHome");
-        }else{
-            System.out.println(username + " does not have access");
-        }
-    }
-*/
-}
+  
